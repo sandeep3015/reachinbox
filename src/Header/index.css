@@ -1,0 +1,20 @@
+.main-icon {
+    height: 35px;
+    width: 35px;
+    margin-right: 7px;
+}
+
+.nav-bar {
+    background-color: rgb(0, 0, 0);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid pink;
+}
+
+.main-heading {
+    font: 40px;
+    color: white;
+    font-family: Open Sans;
+}

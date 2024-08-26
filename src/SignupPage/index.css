@@ -1,0 +1,91 @@
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    height: 100vh;
+    width: 100%;
+    border-radius: 30px;
+    padding: 30px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.input-text {
+    font-size: 15px;
+    font-family: serif;
+    color:white;
+    margin-bottom: 5px;
+}
+
+.input-value {
+    height: 30px;
+    max-width: 600px;
+    width: 484px;
+    border-width: 2px 2px 2px 2px solid;
+    border-color: white;
+    border-radius: 7px;
+    background-color: white;
+    outline: none;
+    padding-left: 8px;
+}
+
+.select-input-value {
+    height: 35px;
+    width: 500px;
+    border-width: 2px 2px 2px 2px solid;
+    border-color: white;
+    border-radius: 7px;
+    background-color: white;
+    outline: none;
+    padding-left: 8px;
+}
+
+.booking-buttons {
+    display: flex;
+    max-width: 500px;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.booking-button {
+    background-color: rgb(65, 55, 60);
+    height: 40px;
+    width: 200px;
+    border-radius: 7px;
+    border-width: 0;
+    outline: none;
+    cursor: pointer;
+    font: roboto 20px;
+    color: white;
+}
+
+.name-input {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 500px;
+    width: 500px;
+
+}
+
+.name-field {
+    height: 30px;
+    width: 150px;
+    padding-left: 8px;
+    outline: none;
+    border-radius: 5px;
+    border-width: 0;
+    margin-right: 30px;
+}
+
+.create-container {
+    height: 100vh;
+    width: 100%;
+}

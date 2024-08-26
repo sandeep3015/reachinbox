@@ -1,0 +1,130 @@
+.side-top-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.sidebar-container {
+    height: 100vh;
+    width: 5%;
+    max-width: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    border-right: 2px solid rgb(59, 37, 226);
+}
+
+.sidebar-icon {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.topbar-container {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(59, 37, 226);
+    padding: 12px;
+}
+
+.top-text {
+    color: white;
+    font-size: 20px;
+}
+
+.main-icon {
+    height: 30px;
+    width: 30px;
+    margin-left: 7px;
+    border-radius: 15px;
+}
+
+.logo-container {
+    display: flex;
+    width: 125px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-container {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.display-container {
+    display: flex;
+    width: 95%;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-icon {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background: transparent;
+}
+
+.para-text {
+    font-size: 15px;
+    color: grey;
+}
+
+.icon-buttons {
+    background-color: transparent;
+    outline: none;
+    border-width: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.icon-buttons :hover {
+    background-color: grey;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    color: black;
+    padding: 5px;
+}
+
+.newemail-button {
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    border-width: 0;
+    background: linear-gradient(to right, rgb(81, 142, 227), rgb(37, 37, 248));
+    color: white;
+    outline: none;
+    margin-top: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-new-email-container {
+    display: flex;
+    width: 95%;
+    height: 80vh;
+    justify-content: flex-start;
+}
